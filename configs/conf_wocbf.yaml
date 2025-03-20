@@ -17,9 +17,9 @@ default_settings:
     extrinsic:
       gamma: 0.99
       strength: 1.0
-  max_steps: 5000000
-  time_horizon: 64
-  summary_freq: 20480
+  max_steps: 10000000
+  time_horizon: 1000
+  summary_freq: 51200
 
 engine_settings:
   # width: 84

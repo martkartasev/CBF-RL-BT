@@ -1725,7 +1725,7 @@ MonoBehaviour:
   maxSteps: 10000
   maxStepsPerLocalEpisode: 5000
   evaluationActive: 0
-  cbfConditions: 0
+  cbfConditions: 1
 --- !u!114 &1685125455920507372
 MonoBehaviour:
   m_ObjectHideFlags: 0

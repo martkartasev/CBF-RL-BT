@@ -18,7 +18,7 @@ default_settings:
       gamma: 0.99
       strength: 1.0
   max_steps: 5000000
-  time_horizon: 64
+  time_horizon: 1000
   summary_freq: 20480
 
 engine_settings:
