@@ -31,7 +31,7 @@ namespace Env5
 
         protected override void ApplyTaskSpecificReward()
         {
-            AddReward(playerBridgeDistanceRewarder.Reward() * 1f);
+            AddReward(playerBridgeDistanceRewarder.Reward() * 0.5f);
         }
     }
 }

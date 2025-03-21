@@ -35,7 +35,7 @@ namespace Env5
 
         protected override void ApplyTaskSpecificReward()
         {
-            AddReward(playerTrigger2DistanceRewarder.Reward() * 1f);
+            AddReward(playerTrigger2DistanceRewarder.Reward() * 0.5f);
         }
     }
 }

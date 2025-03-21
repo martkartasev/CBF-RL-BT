@@ -27,7 +27,7 @@ namespace Env5
 
         protected override void ApplyTaskSpecificReward()
         {
-            AddReward(X3DistanceRewarder.Reward() * 1f);
+            AddReward(X3DistanceRewarder.Reward() * 0.5f);
         }
     }
 }

@@ -26,7 +26,7 @@ namespace Env5
 
         protected override void ApplyTaskSpecificReward()
         {
-            AddReward(trigger1Button1DistanceRewarder.Reward() * 1f);
+            AddReward(trigger1Button1DistanceRewarder.Reward() * 0.5f);
         }
     }
 }

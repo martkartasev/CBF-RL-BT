@@ -6,11 +6,11 @@ using UnityEngine;
 
 public abstract class BaseAgent : Agent
 {
-    private const float PC_REWARD = 1f;
-    private const float ACC_REWARD = -1f;
-    private const float HPC_REWARD = 1f;
-    private const float TOTAL_TIME_PENALTY = -1f;
-    private const float LOCAL_RESET_REWARD = -1f;
+    private const float PC_REWARD = 0.5f;
+    private const float ACC_REWARD = -0.5f;
+    private const float HPC_REWARD = 0.5f;
+    private const float TOTAL_TIME_PENALTY = -0.5f;
+    private const float LOCAL_RESET_REWARD = -0.5f;
     public IEvaluationManager evaluationManager;
     [HideInInspector]
     public bool useCBF = true;
